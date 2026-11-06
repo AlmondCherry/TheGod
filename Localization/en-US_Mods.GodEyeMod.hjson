@@ -1,0 +1,306 @@
+# This file will automatically update with entries for new content after a build and reload.
+
+Items: {
+	GodEyeMod: {
+		DisplayName: God Eye Mod
+		Tooltip:
+			'''
+			Template of an item
+			Replacing this tooltip is duty 
+			It's snowing on Mt.Fuji
+			'''
+	}
+
+	GodEyeSummon: {
+		DisplayName: God Eye Summon
+		Tooltip: ""
+	}
+
+	GodEyeBag: {
+		DisplayName: God Eye Bag
+		Tooltip: ""
+	}
+
+	GodEyeSummons: {
+		DisplayName: God Eye Summons
+		Tooltip: ""
+	}
+
+	GodEyeSummonItem: {
+		DisplayName: God Eye Summon Item
+		Tooltip: ""
+	}
+
+	AllSeeingEmblem: {
+		DisplayName: All Seeing Emblem
+		Tooltip: ""
+	}
+
+	CorruptedLens: {
+		DisplayName: Corrupted Lens
+		Tooltip: ""
+	}
+
+	EyeOfTheVoid: {
+		DisplayName: Eye Of The Void
+		Tooltip: ""
+	}
+
+	GodEyeResetItem: {
+		DisplayName: God Eye Reset Item
+		Tooltip: ""
+	}
+
+	GodEyeStatisticsOrb: {
+		DisplayName: God Eye Statistics Orb
+		Tooltip: ""
+	}
+
+	GodEyeDebugItem: {
+		DisplayName: God Eye Debug Item
+		Tooltip: ""
+	}
+
+	GodEyeProgressChecker: {
+		DisplayName: God Eye Progress Checker
+		Tooltip: ""
+	}
+
+	GodEyeStage1Item: {
+		DisplayName: God Eye Stage1 Item
+		Tooltip: ""
+	}
+
+	GodEyeStage2Item: {
+		DisplayName: God Eye Stage2 Item
+		Tooltip: ""
+	}
+
+	GodEyeStage3Item: {
+		DisplayName: God Eye Stage3 Item
+		Tooltip: ""
+	}
+
+	GodEyeStage4Item: {
+		DisplayName: God Eye Stage4 Item
+		Tooltip: ""
+	}
+
+	GodEyeStage5Item: {
+		DisplayName: God Eye Stage5 Item
+		Tooltip: ""
+	}
+
+	GodEyeStage6Item: {
+		DisplayName: God Eye Stage6 Item
+		Tooltip: ""
+	}
+
+	GodEyeStage7Item: {
+		DisplayName: God Eye Stage7 Item
+		Tooltip: ""
+	}
+
+	VoidGaze: {
+		DisplayName: Void Gaze
+		Tooltip: ""
+	}
+}
+
+NPCs: {
+	GodEyeBoss.DisplayName: God Eye Boss
+	GodEyeMinion.DisplayName: God Eye Minion
+	GodBossPhase2.DisplayName: God Boss Phase2
+	GodMinion.DisplayName: God Minion
+}
+
+Projectiles: {
+	GodEyeBlackHole.DisplayName: God Eye Black Hole
+	GodEyeLaser.DisplayName: God Eye Laser
+	GodEyePhantomDash.DisplayName: God Eye Phantom Dash
+	GodEyeShockwave.DisplayName: God Eye Shockwave
+	GodEyeWallProjectile.DisplayName: God Eye Wall Projectile
+	GodEyeCross.DisplayName: God Eye Cross
+	GodEyeCrossBarrage.DisplayName: God Eye Cross Barrage
+	AmbientWatcherProjectile.DisplayName: Ambient Watcher Projectile
+	DevourRiftProjectile.DisplayName: Devour Rift Projectile
+	RealityFractureProjectile.DisplayName: Reality Fracture Projectile
+	SentinelEyeProjectile.DisplayName: Sentinel Eye Projectile
+	UnmakeBeamProjectile.DisplayName: Unmake Beam Projectile
+	VoidEyeProjectile.DisplayName: Void Eye Projectile
+	GodCircleProjectile.DisplayName: God Circle Projectile
+	GodCoreProjectile.DisplayName: God Core Projectile
+	GodMinionProjectile.DisplayName: God Minion Projectile
+	GodWallProjectile.DisplayName: God Wall Projectile
+	GodDelayedProjectile.DisplayName: God Delayed Projectile
+	GodBarrierProjectile.DisplayName: God Barrier Projectile
+}
+
+Configs: {
+	GodEyeConfig: {
+		DisplayName: God Eye Config
+
+		Headers: {
+			VisualEffects: Visual Effects Header
+			WorldEvents: World Events Header
+			ChatMessages: Chat Messages Header
+			TextAndMessages: Text And Messages Header
+			DebugAndTesting: Debug And Testing Header
+			BossFightConfig: Boss Fight Config Header
+			ObserverEvents: Observer Events Header
+		}
+
+		DisableScreenEyes: {
+			Label: Disable Screen Eyes
+			Tooltip: Turns off floating eyes appearing on screen during boss fight
+		}
+
+		DisableScreamer: {
+			Label: Disable Screamer
+			Tooltip: Removes jumpscare/screamer effect (recommended for photosensitive players)
+		}
+
+		DisableFlashing: {
+			Label: Disable Screen Flashing
+			Tooltip: Removes screen flashes, color inversions, and bright effects
+		}
+
+		DisableGlitchOverlay: {
+			Label: Disable Glitch Overlay
+			Tooltip: Removes scanlines, RGB splits, and glitch bars on screen
+		}
+
+		DisableGlitchText: {
+			Label: Disable Glitch Text
+			Tooltip: Hides creepy text messages like 'I SEE YOU', 'ERROR', etc. on screen
+		}
+
+		DisableScreenShake: {
+			Label: Disable Screen Shake
+			Tooltip: Removes camera shake effects
+		}
+
+		DisableVignette: {
+			Label: Disable Vignette
+			Tooltip: Removes dark borders around screen edges
+		}
+
+		DisableUIOffset: {
+			Label: Disable UI Offset/Jitter
+			Tooltip: Stops UI elements from shaking and moving
+		}
+
+		DisableWeatherControl: {
+			Label: Disable Weather Control
+			Tooltip: Boss won't change rain or wind
+		}
+
+		DisableTimeControl: {
+			Label: Disable Time Acceleration
+			Tooltip: Boss won't speed up day/night cycle
+		}
+
+		DisableMoonPhaseChanges: {
+			Label: Disable Moon Phase Changes
+			Tooltip: Boss won't randomly change moon phases
+		}
+
+		DisableGlitchNPCSpawning: {
+			Label: Disable Glitch NPC Spawning
+			Tooltip: Boss won't spawn random eye enemies
+		}
+
+		DisableLightingGlitches: {
+			Label: Disable Lighting Glitches
+			Tooltip: Boss won't mess with global brightness
+		}
+
+		DisableRandomBuffs: {
+			Label: Disable Random Player Buffs
+			Tooltip: Boss won't give you random buffs
+		}
+
+		DisableFallingStars: {
+			Label: Disable Falling Stars
+			Tooltip: Boss won't spawn falling stars
+		}
+
+		DisableBossChatSpam: {
+			Label: Disable Boss Chat Spam
+			Tooltip: Stops boss from sending creepy messages to chat
+		}
+
+		DisableSystemMessages: {
+			Label: Disable Glitch System Messages
+			Tooltip: Stops system-style messages like 'WEATHER.RAIN: enabled'
+		}
+
+		DisableAmbientVisuals: {
+			Label: Disable Ambient Visual Effects
+			Tooltip:
+				'''
+				Turns off screen eyes, scanlines, RGB splits, glitch overlays, and vignette.
+				Recommended if you play with many mods and find these effects distracting.
+				Does NOT affect boss gameplay or mechanics.
+				'''
+		}
+
+		DisableChatMessages: {
+			Label: Disable Chat Messages
+			Tooltip:
+				'''
+				Stops ALL boss-related messages in chat.
+				Includes: boss taunts ('I AM THE GAME'), system messages ('WEATHER.RAIN: enabled'),
+				phase transition messages, and glitch system logs.
+				Turn this off if chat spam is annoying in a modpack.
+				'''
+		}
+
+		DisableWorldEvents: {
+			Label: Disable World Events
+			Tooltip:
+				'''
+				Stops the boss from manipulating the world during the fight.
+				This includes: weather changes (rain/wind), time acceleration,
+				moon phase changes, falling stars, random NPC spawns,
+				lighting glitches, and random buff injections.
+				Recommended for ultramodded packs where these cause conflicts.
+				'''
+		}
+
+		DisableBossWeatherControl: {
+			Label: Disable Boss Weather Control
+			Tooltip: Stops the boss from changing rain, wind, time, moon phases during fight.
+		}
+
+		ForceEyeSunMoon: {
+			Label: "[DEBUG] Force Sun/Moon Eye"
+			Tooltip: Forces the sun and moon to ALWAYS be an eye. For testing only.
+		}
+
+		DisableWhispers: {
+			Label: Disable Whisper Events
+			Tooltip: Stops all whisper text that appears on screen between fights.
+		}
+
+		DisableProcessDetection: {
+			Label: Disable Process Detection Messages
+			Tooltip: Stops the mod from detecting running programs and whispering about them. The mod does NOT collect or send any data.
+		}
+
+		DisableSystemInfoWhispers: {
+			Label: Disable System Info Whispers
+			Tooltip: Stops whispers that mention your PC name, username, IP, etc. All data is local and never sent anywhere.
+		}
+
+		DisableEyeEvents: {
+			Label: Disable Eye Events
+			Tooltip: Stops all floating eyes, cursor eyes, wall eyes from appearing.
+		}
+
+		DisableMultiplayerAwareness: {
+			Label: Disable Multiplayer Awareness
+			Tooltip: Stops the mod from mentioning other players, worlds, or Steam friends.
+		}
+	}
+}

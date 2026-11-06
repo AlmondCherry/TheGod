@@ -1,0 +1,6 @@
+displayName = God
+author = God
+version = 0.11.76
+includePDB = true
+hideCode = true
+hideResources = true
